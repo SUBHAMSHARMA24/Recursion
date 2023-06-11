@@ -13,7 +13,7 @@ public class EmployeeSalary {
         taxadd(salary, finalsalary, tax, index+1);
     }
     public static void main(String[] args) {
-        int[] salary = {10000,20000,30000,40000,50000};
+        int[] salary = {1000,3000,50000,100000,150000};
         ArrayList<Integer> list = new ArrayList<>();
         taxadd(salary, list,0.1,0);
     }
